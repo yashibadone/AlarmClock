@@ -1,0 +1,47 @@
+body
+{
+	background-color: pink;
+}
+#container{
+	position: relative;
+	margin:auto;
+	height: 50vw;
+	width: 40vw;
+	background:url("http://content.mycutegraphics.com/graphics/household/alarm-clock-without-hands.png") no-repeat ;
+	background-size: 100%;
+}
+#hour,#minute,#second{
+	position: absolute;
+	border-radius: 5px;
+/*	border: 1px solid black;*/
+	transform-origin: bottom;
+}
+
+#hour{
+	left: 48.85%;
+	top: 27%;
+	width: 2%;
+	height: 25%;
+	background: blue;
+}
+#minute{
+	left: 48.9%;
+	top: 24%;
+	width:2%;
+	height: 28%;
+	background: grey;
+}
+#second{
+	left: 49.25%;
+	top: 22%;
+	width: 1%;
+	height:30% ;
+	background: red;
+}
+#alarmTime {
+  font-size: 28px;
+}
+
+#alarmButton {
+  font-size: 28px;
+}
